@@ -16,10 +16,7 @@ DOM.innerHTML = "I know now what the DOM is 🤲 ";
 
 
 //Using Js to style my Second Paragraph
-//let sel = document.getElementById("sel");
-sel.style.backgroundColor = "Yellow";
-sel.style.color = "black";
-sel.innerHTML = "I know how to access/select elements in the DOM 👊";
+let sel1 = document.getElementById("sel");
 sel.addEventListener("click",() => {
 sel.style.backgroundColor = "gray";
 sel.style.color = "black";
@@ -47,11 +44,19 @@ styl.innerHTML = "I know how the styling properties differ in JS from CSS👍";
 
 
 //using Js to style my fifth paragraph
-//let excited = document.getElementById("Excited");
+let excited = document.getElementById("Excited");
 excited.addEventListener("click",() => {
-excited.style.backgroundColor = "black";
-excited.style.color = "white"
-excited.innerText = "Yes I did it!! I manipulated the DOM and styled my elements 🥰🥰🥰🥰"
+excited.style.backgroundColor = "pink";
+excited.style.color = "white";
+excited.innerHTML = "Yes I did it!! I manipulated the DOM and styled my elements 🥰🥰🥰🥰";
 }) ;
 
 
+
+function Showimage(params) {
+    let image1 = document.getElementById("Me");
+    image1.style.display="block";
+    
+}
+let button1 = document.getElementById("Of");
+button1.addEventListener("click",Showimage);

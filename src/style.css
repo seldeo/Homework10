@@ -18,6 +18,13 @@ h1{
     text-align: center;
 }
 
-.domm{
+.DOM{
     margin-top: 20px;
+}
+.me{
+    display: none;
+    margin-left: 500px;
+}
+.of{
+    margin-left: 500px;
 }
